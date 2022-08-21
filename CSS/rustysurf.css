@@ -1,0 +1,147 @@
+.header {
+    background-image: url('https://fondosmil.com/fondo/1927.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px;
+    }
+.container h1 {
+    font-size: 60px;
+    text-shadow: 1px 1px 3px white;
+    font-weight: bold;
+}
+
+.container h5 {
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    font-size: large;
+    font-weight: bold;
+    /* padding-right: 50px; 
+    margin-left: 50px; */
+    margin-top: 50px; 
+    font-family: sans-serif;
+    }
+
+.main {
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/246/601/226/depth-of-field-blue-sea-dark-wallpaper-preview.jpg');
+    min-height: 55vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    font-family: sans-serif;
+    border-width: 5px;
+    border-style: double;
+    border-color: black;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    padding-top: 25px;
+    margin-bottom: 3px;
+
+}
+
+.img-thumbnail {
+    background-color: black;
+    margin: 20px
+}
+.catalogo li {
+    margin: 15px;
+    color: azure;
+    font-weight: bold;
+}
+.catalogo h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color:azure
+    
+}
+.catalogo h3 {
+    color:azure;
+    font-weight: bold;
+}
+.catalogo p {
+    color: azure;
+    font-weight: bold;
+}
+.catalogo p2 {
+    color: azure;
+    font-weight: bold;
+    font-style: italic;
+}
+.futer {
+    display:flex;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+.futer ul {
+    margin: 25px;
+    margin-left: 50px;
+ 
+}
+.futer li {
+    margin: 10px;
+}
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+} 
+
+ @media screen and (max-width: 1200px){
+    .main {
+        padding-left: 5px;
+        padding-right: 5px;
+        flex-direction: column;
+    }
+    .imagen {
+        order: 2;
+    }
+    .catalogo {
+        order: 1;
+    }
+    .futer {
+        flex-direction: column;
+    }
+    .futer * {
+        padding:0;
+        margin:0;
+    }
+     .header {
+     padding-left: 0px;
+     padding-right: 0px;
+     background-position: center;
+     }
+  
+    .container {
+        align-content: flex-start
+
+    }
+    .container h1 {
+       font-size: 40px; 
+    }
+    .container h5 {
+        font-size: 15px;
+        padding-right: 50px;
+     }
+     .container p {
+        font-size: 15px;
+        padding-right: 50px;
+     }
+     .btn {
+        font-size: 15px;
+     }
+     .form-control {
+        font-size: 15px;
+     }
+}
+
+@media screen and (max-width: 1280px){
+    html * {margin: 0; padding: 0;}
+}
